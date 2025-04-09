@@ -122,7 +122,7 @@ function App() {
               className="img-fluid mb-4 mx-auto d-block" 
               style={{ width: '150px', height: '150px', objectFit: 'cover' }} 
             />
-            <h3 className="text-center">Login to Your School Databsee</h3>
+            <h3 className="text-center">Login to Your School Database</h3>
             {error && <div className="alert alert-danger">{error}</div>}
             <form onSubmit={handleLogin}>
               <div className="mb-3">
